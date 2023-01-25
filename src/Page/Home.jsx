@@ -209,15 +209,16 @@ const Home = () => {
                 <h2 style={{ fontSize: "28px", marginBottom: "8px" }}>
                   Movie_Name : {item.title}
                 </h2>
-                <h4
+                <p
                   style={{
+                    textAlign: "justify",
                     fontWeight: "300",
                     fontSize: "18px",
                     lineHeight: "25px",
                   }}
                 >
                   {item.content}
-                </h4>
+                </p>
                 <span
                   style={{
                     display: "flex",
