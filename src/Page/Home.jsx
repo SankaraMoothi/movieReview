@@ -203,6 +203,13 @@ const Home = () => {
         )}
 
         <Content>
+          {rev.length <= 0 ? (
+            <h1 style={{ marginTop: "30px", textAlign: "center" }}>
+              Loading.....
+            </h1>
+          ) : (
+            <></>
+          )}
           {[...rev]?.reverse().map((item) => {
             return (
               <Detail key={item._id}>
